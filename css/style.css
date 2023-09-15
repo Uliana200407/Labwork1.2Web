@@ -35,16 +35,16 @@ body, html {
 }
 
 .discount-icon {
-    font-size: 24px; /* Розмір іконки */
-    margin-left: 5px; /* Відступ від тексту */
-    transition: transform 0.3s; /* Анімація при наведенні */
+    font-size: 24px; 
+    margin-left: 5px;
+    transition: transform 0.3s; 
 }
 
 .discount-icon:hover {
-    transform: scale(1.2); /* Збільшення іконки при наведенні */
+    transform: scale(1.2); 
 }
 header {
-    background: #000; /* Колір фону заголовка */
+    background: #000;
     padding: 35px 60px;
     display: flex;
     justify-content: space-between;
@@ -54,14 +54,14 @@ header .logo {
     font-size: 48px;
     color: #ffb703;
     font-family: "Dancing Script", cursive;
-    transition: color 0.3s; /* Add a smooth color transition effect */
+    transition: color 0.3s; 
 }
 header .logo:hover {
-    color: #fff; /* White color on hover */
+    color: #fff; 
 }
 .discount-banner {
     font-family: "Lato", sans-serif;
-    background: #ffcc00; /* Brighten the background color */
+    background: #ffcc00; 
     padding: 14px 60px 14px 18px;
     border-radius: 100px;
     position: relative;
@@ -73,7 +73,7 @@ header .logo:hover {
 .discount-banner::after {
     content: "🍽️"; 
     position: absolute;
-    font-size: 24px; /* Increase icon size */
+    font-size: 24px; 
     top: 50%;
     transform: translateY(-50%);
     right: 18px;
@@ -149,22 +149,22 @@ section .title{
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    align-items: center; /* Vertically center items */
+    align-items: center; 
 }
 .photo img {
     max-width: 100%;
 }
 .photo {
     text-align: center;
-    max-height: 600px; /* Adjust this as needed */
-    max-width: 600px; /* Adjust this as needed */
+    max-height: 600px; 
+    max-width: 600px; 
     margin-bottom: 20px;
 }
 .photo .text {
     font-size: 16px;
     font-family: "Lato", sans-serif;
     color: #000;
-    margin-top: 10px; /* Adjust this as needed */
+    margin-top: 10px; 
 }
 
 footer{
@@ -211,14 +211,14 @@ aside .title {
     padding-top: 28px;
     padding-bottom: 28px;
     font-family: "Lato", sans-serif; 
-    background-color: #000; /* Колір фону заголовка бокового блоку */
+    background-color: #000; 
 }
 
 .feedback .text {
     font-size: 16px;
     font-family: "Lato", sans-serif; 
     height: 30%;
-    color: #000; /* Колір тексту відгуків */
+    color: #000; 
 }
 
 .feedback .author {
@@ -242,7 +242,7 @@ aside .title {
     outline: none;
     margin-bottom: 20px;
     width: 100%;
-    background-color: #a2d2ff; /* Колір фону полів вводу */
+    background-color: #a2d2ff; 
 }
 
 .contact-form textarea {
@@ -252,7 +252,7 @@ aside .title {
 .contact-form input[type="submit"] {
     padding: 10px 25px;
     color: #243081;
-    background: #ffc8dd; /* Колір фону кнопки відправки форми */
+    background: #ffc8dd; 
     float: right;
 }
 
@@ -278,5 +278,36 @@ section .description{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 70vh; /* Встановіть бажану висоту, щоб підігнати під макет */
+            height: 70vh; 
+        }
+        .map-like {
+            background-image: url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.34001926536!2d-77.09697671431041!3d38.89372554401473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2z0JLQsNGI0LjQvdCz0YLQvtC9LCDQntC60YDRg9CzINCa0L7Qu9GD0LzQsdGW0Y8sINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1694781246473!5m2!1suk!2sua'); /* Replace 'your-map-image.jpg' with your map-like image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px; 
+            width: 100%; 
+            color: white;
+            padding: 20px; 
+            text-align: center; 
+            font-size: 18px; 
+        }
+        menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease-in-out; 
+            font-weight: bold;
+        }
+        
+        .menu a:hover {
+            color: #275C2D; 
+            transform: scale(1.1);
+        }
+        
+        .menu a.active {
+            font-weight: bold;
         }
