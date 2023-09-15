@@ -197,9 +197,9 @@ footer .info {
     display: flex;
     width: 50%;
     flex-direction: column;
-    justify-content: flex-end; /* Вирівнюємо вміст внизу */
-    align-items: flex-end; /* Вирівнюємо вміст по правому краю */
-    margin-left: auto; /* Додаємо цей рядок, щоб вирівняти блок праворуч */
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    margin-left: auto; 
 }
 
 footer .info span {
@@ -207,16 +207,24 @@ footer .info span {
 }
 
 
-.side-block{
-	background: #ffb703;
-	color: #000;
-    font-family: "Lato", sans-serif; 
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-bottom: 40px;
+
+
+.feedback .text,
+.side-block {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #000;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     display: flex;
     align-items: center;
+    background: #ffb703;
+    resize: vertical;
+
 }
+
 aside .title {
     text-align: center;
     font-size: 24px;
@@ -226,14 +234,7 @@ aside .title {
     background-color: #000; 
 }
 
-.feedback .text {
-    font-size: 16px;
-    font-family: "Lato", sans-serif; 
-    height: 30%;
-    color: #000; 
-    display: flex;
-    align-items: center;
-}
+
 
 
 .feedback .author {
@@ -241,7 +242,7 @@ aside .title {
     font-family: "Lato", sans-serif; 
 }
 
-.contact-form {
+ .contact-form {
     margin-top: 20px;
     flex-grow: 1;
     display: flex;
@@ -249,30 +250,13 @@ aside .title {
 
 }
 
-.contact-form input,
-.contact-form textarea {
-    font-family: "Lato", sans-serif; 
-    border: none;
-    border-radius: 25px;
-    padding: 10px;
-    font-size: 16px;
-    color: #000;
-    outline: none;
-    margin-bottom: 20px;
-    width: 100%;
-    background-color: #a2d2ff; 
-}
+
 
 .contact-form textarea {
     resize: vertical;
 }
 
-.contact-form input[type="submit"] {
-    padding: 10px 25px;
-    color: #243081;
-    background: #ffc8dd; 
-    float: right;
-}
+
 
 .page-image{
 	height: 45%;
