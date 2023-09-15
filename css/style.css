@@ -191,16 +191,21 @@ footer .title{
 	width:150px;
 }
 
-footer .info{
-	margin-top: 70px;
+footer .info {
+    margin-top: 70px;
     font-size: 22px;
     display: flex;
     width: 50%;
     flex-direction: column;
+    justify-content: flex-end; /* Вирівнюємо вміст внизу */
+    align-items: flex-end; /* Вирівнюємо вміст по правому краю */
+    margin-left: auto; /* Додаємо цей рядок, щоб вирівняти блок праворуч */
 }
-footer .info span{
-	padding-top:10px;
+
+footer .info span {
+    padding-top: 10px;
 }
+
 
 .side-block{
 	background: #ffb703;
