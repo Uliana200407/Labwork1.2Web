@@ -210,6 +210,7 @@ footer .info span {
 .side-block{
 	background: #ffb703;
 	color: #000;
+    font-family: "Lato", sans-serif; 
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-bottom: 40px;
@@ -234,10 +235,10 @@ aside .title {
     align-items: center;
 }
 
+
 .feedback .author {
     text-align: end;
     font-family: "Lato", sans-serif; 
-    
 }
 
 .contact-form {
