@@ -17,11 +17,12 @@ My aim was to construct a layout, which will be adequate to the given photo. Mak
 - **Elegant Hovers:** Added a touch of sophistication by incorporating captivating hover effects on select titles.
 - 
 ## Some snaps of the Labwork 1.2
-![1](<img width="1193" alt="Screenshot 2023-09-16 at 23 32 31" src="https://github.com/Uliana200407/Labwork1.2Web/assets/114984015/1e3184f7-ef49-4541-8d2f-e5663333a247">)
+<img src="https://i.imgur.com/jERcDlg.png" width="800">
 
-![2](<img width="1440" alt="Screenshot 2023-09-16 at 23 33 20" src="https://github.com/Uliana200407/Labwork1.2Web/assets/114984015/173e3a54-49eb-4dde-b1a9-50999a7bdd92">)
+<img src="https://i.imgur.com/29jvUvD.png" width="800">
 
-![3](<img width="1440" alt="Screenshot 2023-09-16 at 23 33 06" src="https://github.com/Uliana200407/Labwork1.2Web/assets/114984015/b04959a2-0187-4da2-88b1-956d6163edaa">)
+<img src="https://i.imgur.com/R1mc4hk.png" width="800">
 
-![4](<img width="1440" alt="Screenshot 2023-09-16 at 23 33 36" src="https://github.com/Uliana200407/Labwork1.2Web/assets/114984015/00867486-27c8-42f2-ba76-7d39729a0a03">)
+<img src="https://i.imgur.com/pdTNkEc.png" width="800">
+
 
