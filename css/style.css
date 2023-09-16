@@ -214,16 +214,14 @@ footer .info span {
     font-size: 16px;
     font-family: "Lato", sans-serif;
     color: #000;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding:30px;
     display: flex;
     align-items: center;
     background: #ffb703;
     resize: vertical;
-
+    flex-direction: column;
 }
+
 
 aside .title {
     text-align: center;
@@ -238,18 +236,18 @@ aside .title {
 
 
 .feedback .author {
-    text-align: end;
     font-family: "Lato", sans-serif; 
 }
 
  .contact-form {
-    margin-top: 20px;
     flex-grow: 1;
     display: flex;
     align-items: center;
 
 }
-
+.first {
+    border-bottom: 8px #000 solid;
+}
 
 
 .contact-form textarea {
